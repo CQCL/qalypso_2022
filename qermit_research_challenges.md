@@ -1,6 +1,4 @@
-Challenges from Dan - will tidy up
-
-We should maybe just pick two of these.
+# Qermit Challenges
 
 - https://arxiv.org/abs/2204.07109 - This paper proposes a new approach to generating training data for CDR. This should not be too tricky and would adapt the implementation in Qermit, rather than requiring a new full scheme to be written.
 
