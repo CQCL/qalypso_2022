@@ -1,7 +1,7 @@
 # qalypso_2022
 Repository for presentations, notebooks and hackathon exercises from the Qalypso summer school 2022
 
-Join our [slack channel](https://tketusers.slack.com/ssb/redirect)!
+Join our [slack channel](https://tketusers.slack.com/join/shared_invite/zt-18qmsamj9-UqQFVdkRzxnXCcKtcarLRA#/shared-invite/email)!
 
 ## Useful Links
 

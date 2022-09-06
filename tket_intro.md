@@ -6,7 +6,7 @@ This page will provide a quick intro to TKET and help you set up a programming e
 
 If you have any questions during the summer school please feel free to ask me (Callum) or one of the other Quantinuum team members (Seyon or Luciana).
 
-We have also created a [public slack channel](https://tketusers.slack.com/ssb/redirect) for support and discussion.
+We have also created a [public slack channel](https://tketusers.slack.com/join/shared_invite/zt-18qmsamj9-UqQFVdkRzxnXCcKtcarLRA#/shared-invite/email) for support and discussion.
 
 ## A Brief Introduction to TKET
 
