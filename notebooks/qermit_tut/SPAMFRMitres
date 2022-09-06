@@ -1,0 +1,465 @@
+digraph SPAMCorrection {
+	bgcolor=white margin=0 nodesep=0.15 rankdir="" ranksep=0.1
+	Inputs [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="white" COLOR="white">
+
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>Inputs</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	FRCircuitsToHandles [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>FRCircuitsToHandles</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	FRHandlesToResults [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>FRHandlesToResults</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	Outputs [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="white" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>Outputs</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+
+</TABLE>
+> shape=plain]
+	FRCompileCircuitShots [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>FRCompileCircuitShots</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	FRGenerateFrameRandomisationCircuits [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>FRGenerateFrameRandomisationCircuits</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	FRCollateFrameRandomisationResults [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>FRCollateFrameRandomisationResults</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	GetBitQubitMaps [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>GetBitQubitMaps</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_1" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">1</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	CompileCircuitShots [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>CompileCircuitShots</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	SPAMCalibration [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_1" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">1</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>SPAMCalibration</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	SPAMFullTomographyCircuits [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>SPAMFullTomographyCircuits</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_1" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">1</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_2" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">2</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	SPAMFullCorrection [label=<
+<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="1" CELLPADDING="1" BGCOLOR="#c0dd8e" COLOR="white">
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_1" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">1</FONT></TD><TD BGCOLOR="white" COLOR="#6bb24d" PORT="in_2" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">2</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0">
+                <TR>
+                    <TD><FONT POINT-SIZE="11.0" FACE="monospace" COLOR="black"><B>SPAMFullCorrection</B></FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+    <TR>
+        <TD>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="2">
+                <TR>
+                    <TD BGCOLOR="white" COLOR="#6bb24d" PORT="out_0" BORDER="1"><FONT POINT-SIZE="10.0" FACE="monospace" COLOR="black">0</FONT></TD>
+                </TR>
+            </TABLE>
+        </TD>
+    </TR>
+
+
+</TABLE>
+> shape=plain]
+	Inputs:out_0 -> SPAMFullTomographyCircuits:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	FRCircuitsToHandles:out_0 -> FRHandlesToResults:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	FRHandlesToResults:out_0 -> FRCollateFrameRandomisationResults:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	FRCompileCircuitShots:out_0 -> FRCircuitsToHandles:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	FRGenerateFrameRandomisationCircuits:out_0 -> FRCompileCircuitShots:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	FRCollateFrameRandomisationResults:out_0 -> SPAMFullCorrection:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	GetBitQubitMaps:out_0 -> FRGenerateFrameRandomisationCircuits:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	GetBitQubitMaps:out_1 -> SPAMFullCorrection:in_1 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	CompileCircuitShots:out_0 -> GetBitQubitMaps:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	SPAMCalibration:out_0 -> SPAMFullCorrection:in_2 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	SPAMFullTomographyCircuits:out_0 -> CompileCircuitShots:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	SPAMFullTomographyCircuits:out_1 -> SPAMCalibration:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	SPAMFullTomographyCircuits:out_2 -> SPAMCalibration:in_1 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+	SPAMFullCorrection:out_0 -> Outputs:in_0 [arrowhead=none arrowsize=1.0 color="#6bb24d" fontcolor=black fontname=monospace fontsize=9 penwidth=1.5]
+}
