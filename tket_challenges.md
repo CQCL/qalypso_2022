@@ -4,6 +4,7 @@
 - Implement a backend for qFlex simulator: https://github.com/CQCL/pytket/blob/main/examples/creating_backends.ipynb, https://github.com/ngnrsaa/qflex
 - Implement a Toffoli Simulator in python (A simulator for classical logic circuits). I.e a simulator for the $\{X, CX, CCX, ..., CnX\}$ gateset. See [here](https://barghouthi.github.io/2021/08/05/quantum/) for some ideas for how to write a simulator in python.
 - Implement a routing method for a decomposition of CnX gates.
+Here is an [example notebook](https://github.com/CQCL/pytket/blob/main/examples/mapping_example.ipynb) explaining routing in pytket.
 - Implement circuit gradients in pytket using the parameter shift rule or finite difference methods.
 - Implement the method from ["Approaching the theoretical limit in quantum gate decomposition"](https://arxiv.org/abs/2109.06770)
 - Write and test an MBQC (Measurement Based Quantum Computing) algorithm using mid-circuit measurements and classically controlled gates.
